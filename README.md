@@ -1,7 +1,5 @@
 # Dhafa Portfolio
 
----
-
 ## Getting Started
 
 Portfolio Dhafa created using Gatsby JS.
