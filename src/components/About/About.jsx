@@ -39,14 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Nama lengkap saya Dhafa Gustiadi Kurniawan, seorang Web Developer yang semangat mempelajari hal baru. Fokus saya di back-end seperti PHP, Wordpress, dan framework-nya seperti Laravel. Saya juga bisa sedikit front-end seperti React dan Gatsby, dan saya juga bisa design web pakai Adobe XD / Figma.'}
+                    'Lorem'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Sebenernya saya telah membuat website dari tahun 2017, tapi saya sempat berhenti karena suatu alasan dan sekarang akhirnya mulai lagi dari 0. Tujuan saya kali ini adalah untuk fokus belajar hal baru dan menggunakan ilmu itu menjadi sesuatu yang bermanfaat.'}
+                    'Ipsum'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Saya juga punya resume, silahkan di cek ya :)'}
+                  {paragraphThree || 'Dolor'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
