@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'photo.jpg',
   paragraphOne:
-    'Nama lengkap saya Dhafa Gustiadi Kurniawan, seorang Web Developer yang semangat mempelajari hal baru. Fokus saya di back-end seperti PHP, Wordpress, dan framework-nya seperti Laravel. Tapi saya juga bisa front-end seperti Javascript atau Ajax. Dan saya juga bisa design UI/UX menggunakan Adobe XD / Figma.',
+    'Nama lengkap saya Dhafa Gustiadi Kurniawan, seorang Web Developer yang semangat mempelajari hal baru. Fokus saya di back-end seperti PHP, Wordpress, dan framework-nya seperti Laravel. Tapi saya juga bisa front-end seperti React. Dan saya juga bisa design UI/UX menggunakan Adobe XD / Figma.',
   paragraphTwo:
     'Sebenernya saya telah membuat website dari tahun 2017, tapi saya sempat berhenti karena suatu alasan dan sekarang akhirnya mulai lagi dari 0. Tujuan saya kali ini adalah untuk fokus belajar hal baru dan menggunakan ilmu itu menjadi sesuatu yang bermanfaat.',
   paragraphThree: 'Saya juga punya resume, silahkan di cek ya :)',
@@ -28,6 +28,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'kunyit.png',
+    title: 'Turmeric Curcumin Indonesia',
+    info: 'Landing page website yang dibuat menggunakan Wordpress..',
+    info2: 'Tahun : 2021',
+    url: 'http://turmeric-curcumin-indonesia.com/',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'empathy.png',
@@ -45,25 +54,6 @@ export const projectsData = [
     info2: 'Tahun : 2020',
     url: 'https://kamisaha.net/',
     repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project2.png',
-    title: 'Kamisaha Docs',
-    info: 'Website dokumentasi yang keluar bersama theme Kamisaha.',
-    info2: 'Tahun : 2020',
-    url: 'https://docs-kamisaha.netlify.app/',
-    repo: 'https://github.com/dhafagk/kamisaha-docs', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'mynews.png',
-    title: 'Mynews',
-    info:
-      'Theme Wordpress untuk berita. Ini merupakan Theme Wordpress pertama yang pernah saya buat saat PKL dulu.',
-    info2: 'Tahun : 2017',
-    url: 'http://news.myjejaring.com/',
-    repo: 'https://github.com/dhafagk/mynews', // if no repo, the button will not show up
   },
 ];
 
