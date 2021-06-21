@@ -29,6 +29,15 @@ export const aboutData = {
 // PROJECTS DATA
 export const projectsData = [
   {
+    id: kenaltiongkok(),
+    img: 'kenaltiongkok.png',
+    title: 'KenalTiongkok',
+    info: 'Landing page website yang dibuat menggunakan Wordpress dan Elementor..',
+    info2: 'Tahun : 2021',
+    url: 'https://kenaltiongkok.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
     id: nanoid(),
     img: 'kunyit.png',
     title: 'Turmeric Curcumin Indonesia',
@@ -52,7 +61,7 @@ export const projectsData = [
     title: 'Kamisaha',
     info: 'Ini merupakan produk pertama saya yaitu Theme Wordpress khusus streaming Video / Anime.',
     info2: 'Tahun : 2020',
-    url: 'https://kamisaha.net/',
+    url: 'https://kamisaha.xyz/',
     repo: '', // if no repo, the button will not show up
   },
 ];
