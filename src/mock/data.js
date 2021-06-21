@@ -29,7 +29,7 @@ export const aboutData = {
 // PROJECTS DATA
 export const projectsData = [
   {
-    id: kenaltiongkok(),
+    id: nanoid(),
     img: 'kenaltiongkok.png',
     title: 'KenalTiongkok',
     info: 'Landing page website yang dibuat menggunakan Wordpress dan Elementor..',
