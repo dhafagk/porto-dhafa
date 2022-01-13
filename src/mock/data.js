@@ -30,6 +30,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'project-3.png',
+    title: 'MojadiApp',
+    info: 'Platform edukasi yang dibuat menggunakan TALL (Tailwind, Alpine, Laravel, Livewire).',
+    info2: 'Tahun : 2021',
+    url: 'https://mojadiapp.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'kenaltiongkok.png',
     title: 'KenalTiongkok',
     info: 'Landing page website yang dibuat menggunakan Wordpress dan Elementor..',
